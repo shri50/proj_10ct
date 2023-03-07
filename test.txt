@@ -7,3 +7,7 @@ Test Case 1 >> Pass
 Test Case 2 >> Pass
 
 Test Case 3 >> Fail 
+
+test case 4 >> Pass
+
+test case 5 >> Pass
