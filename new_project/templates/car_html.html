@@ -1,0 +1,77 @@
+<html>
+    <head>
+
+    </head>
+
+    <body>
+
+        <form action="/predict" method="post">
+            <label>symboling : </label> <input type="number" name="html_symb"> <br><br>
+            <label> normalized_losses : </label> <input type="number" name ="html_norm"><br><br>
+            <label> Make : </label> <select name ="html_make">
+                <option value = "alfa-romero">alfa-romero</option>
+                <option value = "audi">audi</option>
+                <option value = "bmw">bmw</option>
+                </select>
+                <br><br>
+            <label> fuel type : </label> <select name ="html_fuel">
+                <option value = "1">gas</option>
+                <option value = "0">diesel</option>
+                </select>
+                <br><br>
+            <label> aspiration : </label> <select name ="html_asp">
+                <option value = "1">turbo</option>
+                <option value = "0">std</option>
+                </select>
+                <br><br>
+            <label> num of doors : </label> <select name ="html_no_of_doors">
+                <option value = "4">Four</option>
+                <option value = "2">Two</option>
+                </select>
+                <br><br>
+
+            <label> body style: </label> <select name ="html_body">
+                <option value = "convertible">convertible</option>
+                <option value = "hardtop">hardtop</option>
+                <option value = "hatchback">hatchback</option>
+                <option value = "sedan">sedan</option>
+                <option value = "wagon">wagon</option>
+                </select>
+                <br><br>
+
+            <label> drive-wheels: </label> <select name ="html_drive">
+                <option value = "4wd">4wd</option>
+                <option value = "fwd">fwd</option>
+                <option value = "rwd">rwd</option>
+                </select>
+                <br><br>
+
+            <label> Drive Options : </label> <select name ="html_doption">
+                <option value = "0">front</option>
+                <option value = "1">rear</option>
+                </select>
+                <br><br>
+
+            <label> wheel_base : </label> <input type="number" name ="html_wb"><br><br>
+            <label> length : </label> <input type="number" name ="html_length"><br><br>
+            <label> width : </label> <input type="number" name ="html_width"><br><br>
+            <label> height : </label> <input type="number" name ="html_height"><br><br>
+            <label> curb_weight : </label> <input type="number" name ="html_cw"><br><br>
+
+
+
+            <input type = "submit" value="CHECK PRICE">
+
+
+            
+
+            
+            
+            
+
+
+
+        </form>
+
+    </body>
+</html>
