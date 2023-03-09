@@ -17,5 +17,9 @@ def predict_price():
     return str(predicted_price)
 
 
+@app.route('/pranit')
+def MY_name():
+    return " Welcome Pranit..."
+
 if __name__ == "__main__":
     app.run(debug=True, port = 5050, host='127.0.0.100')
