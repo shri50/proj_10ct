@@ -16,6 +16,9 @@ def predict_price():
     
     return str(predicted_price)
 
+@app.route("/sachin")
+def myname():
+    return "testing github with multiuser"
 
 if __name__ == "__main__":
     app.run(debug=True, port = 5050, host='127.0.0.100')
