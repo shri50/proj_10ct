@@ -15,7 +15,9 @@ def predict_price():
     print(predicted_price)
     
     return str(predicted_price)
-
+@app.route('/shridhar')
+def my_name():
+    return "github testing"
 
 if __name__ == "__main__":
     app.run(debug=True, port = 5050, host='127.0.0.100')
